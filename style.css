@@ -1,0 +1,76 @@
+/*RESET CSS*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+    background-color: rgb(138, 138, 255);
+    color: rgb(252, 251, 251);
+    font-family: "questrial", sans-serif;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 75px;
+    position: absolute, left
+}
+
+.container-principal p{
+    margin-bottom: 40px;
+}
+
+.container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    height: auto;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-login h1{
+    margin-bottom: 20px;
+}
+
+.input-usuario{
+    margin-bottom: 10px;
+}
+
+.input-senha{
+    margin-bottom: 20px;
+}
+
+.container-final{
+font-family: "questrial", sans-serif;
+text-align: center;
+font-size: 10px;
+
+
+}
