@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+section.cursos{
+  background-color: rgb(138, 138, 255);
+}
+
+.container-principal {
+  position: absolute;
+  top: 0%;
+  background-color: #ccc;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.margem-produto {
+  margin-left: 40px;
+}
+
+.cursos {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(138, 138, 255);
+  position: relative;
+}
+
+.container-span {
+  font-size: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.criar-produto {
+  margin-top: 10px;
+  margin-left: 90px;
+  font-size: 10px;
+}
+
+textarea{
+  resize: none;
+  color: #000;
+  font-size: 12px;
+  width: 200px;
+  height: 50px;
+}
+
+.box-preco{
+  width: 160px;
+  height: 16px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-preco span{
+  color: #000;
+  font-size: 1.2em;
+}
+
+.button-produto {
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.button-produto button{
+  background-color: #333;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.button-produto button:hover{
+  /*:hover faz com que ao passar o mouse por cima do botão uma ação é realizada*/
+  background: none;
+  transition: all 0.4s;
+}
+
+.button-produto button:active{
+  /*:active faz com que ao botão ser clicado realize uma ação desejada*/
+  transform: scale(0.9);
+}
+
+
